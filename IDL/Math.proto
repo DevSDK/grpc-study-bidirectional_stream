@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "grpc-example/gen/math";
+package math;
+
+service Math {
+  rpc Sum(stream Request) returns (stream Response) {}
+}
+
+message Request {
+  int32 number = 1;
+}
+
+message Response {
+  int32 number = 1;
+}
