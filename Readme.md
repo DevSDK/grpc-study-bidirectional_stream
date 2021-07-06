@@ -1,10 +1,10 @@
-# GPRC-Bidirectional stream example
+# GRPC-Bidirectional stream example
 
 Bidirectional stream client-server example.
 
-Server response a summary value through the stream if the summary of received number is multiple of 3.
+Server response a sum value through the stream if the sum of the received number is multiple of 3.
 
-Client send a number using stream with opening the receiver stream in goroutine.
+The client sends a number using stream with opening the receiver stream in a goroutine.
 
 
 
